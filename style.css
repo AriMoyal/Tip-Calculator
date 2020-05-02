@@ -1,0 +1,74 @@
+body {
+  font-size: 1.2em;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.5px;
+  padding: 40px;
+  
+}
+
+h1 {
+  background-color: #adadae36;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#container {
+  padding: 1.5em;
+  background: linear-gradient(-45deg, rgb(88, 87, 100), rgb(31, 31, 32));
+  border-radius: 40px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+
+}
+
+div {
+  line-height: 2.5em;
+}
+input[type="text"] {
+  font-size: 1.0em;
+  text-align: center;
+  height: auto;
+  border-radius: 10px;
+  opacity: 0.3;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+label,input {
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  body {
+    width: 60%;
+    background: url("bikbkg.jpeg") no-repeat center fixed;
+    background-size: cover;
+    margin-top: 20px;
+  }
+
+  #container {
+    height: 550px;
+    width: 360px;
+    margin: 120px;
+    opacity: 0.8;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+
+  label, input {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+  }
+
+  div {
+    line-height: 4em;
+  }
+}
